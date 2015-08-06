@@ -1,0 +1,496 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/opt/nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.13.2
+3 info using node@v0.10.35
+4 verbose node symlink /usr/local/opt/nvm/v0.10.35/bin/node
+5 verbose readDependencies loading dependencies from /Users/Morrissey/code/art-chat/.gulp/package.json
+6 verbose install where, deps [ '/Users/Morrissey/code/art-chat/.gulp',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-watch',
+6 verbose install     'gulp-jshint',
+6 verbose install     'jshint-stylish',
+6 verbose install     'gulp-jscs',
+6 verbose install     'gulp-jscs-stylish',
+6 verbose install     'gulp-csslint' ] ]
+7 verbose install where, peers [ '/Users/Morrissey/code/art-chat/.gulp', [] ]
+8 verbose installManyTop reading for lifecycle /Users/Morrissey/code/art-chat/.gulp/package.json
+9 info preinstall @
+10 verbose readDependencies loading dependencies from /Users/Morrissey/code/art-chat/.gulp/package.json
+11 silly cache add args [ 'gulp@latest', null ]
+12 verbose cache add spec gulp@latest
+13 silly cache add args [ 'gulp-plumber@latest', null ]
+14 verbose cache add spec gulp-plumber@latest
+15 silly cache add parsed spec { raw: 'gulp@latest',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'gulp',
+15 silly cache add   rawSpec: 'latest',
+15 silly cache add   spec: 'latest',
+15 silly cache add   type: 'tag' }
+16 silly addNamed gulp@latest
+17 verbose addNamed "latest" is being treated as a dist-tag for gulp
+18 info addNameTag [ 'gulp', 'latest' ]
+19 silly mapToRegistry name gulp
+20 silly mapToRegistry scope (from config) @mmorrissey
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/gulp
+23 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
+24 silly cache add parsed spec { raw: 'gulp-plumber@latest',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'gulp-plumber',
+24 silly cache add   rawSpec: 'latest',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 silly addNamed gulp-plumber@latest
+26 verbose addNamed "latest" is being treated as a dist-tag for gulp-plumber
+27 info addNameTag [ 'gulp-plumber', 'latest' ]
+28 silly mapToRegistry name gulp-plumber
+29 silly mapToRegistry scope (from config) @mmorrissey
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+32 verbose addNameTag registry:https://registry.npmjs.org/gulp-plumber not in flight; fetching
+33 silly cache add args [ 'gulp-watch@latest', null ]
+34 verbose cache add spec gulp-watch@latest
+35 silly cache add args [ 'gulp-jshint@latest', null ]
+36 verbose cache add spec gulp-jshint@latest
+37 silly cache add args [ 'jshint-stylish@latest', null ]
+38 verbose cache add spec jshint-stylish@latest
+39 silly cache add args [ 'gulp-jscs@latest', null ]
+40 verbose cache add spec gulp-jscs@latest
+41 silly cache add args [ 'gulp-jscs-stylish@latest', null ]
+42 verbose cache add spec gulp-jscs-stylish@latest
+43 silly cache add args [ 'gulp-csslint@latest', null ]
+44 verbose cache add spec gulp-csslint@latest
+45 verbose request uri https://registry.npmjs.org/gulp-plumber
+46 verbose request no auth needed
+47 info attempt registry request try #1 at 21:29:47
+48 verbose request using bearer token for auth
+49 verbose request id 2f67765cb94fb7c6
+50 http request GET https://registry.npmjs.org/gulp-plumber
+51 silly cache add parsed spec { raw: 'gulp-watch@latest',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'gulp-watch',
+51 silly cache add   rawSpec: 'latest',
+51 silly cache add   spec: 'latest',
+51 silly cache add   type: 'tag' }
+52 silly addNamed gulp-watch@latest
+53 verbose addNamed "latest" is being treated as a dist-tag for gulp-watch
+54 info addNameTag [ 'gulp-watch', 'latest' ]
+55 silly mapToRegistry name gulp-watch
+56 silly mapToRegistry scope (from config) @mmorrissey
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/gulp-watch
+59 verbose addNameTag registry:https://registry.npmjs.org/gulp-watch not in flight; fetching
+60 silly cache add parsed spec { raw: 'gulp-jshint@latest',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'gulp-jshint',
+60 silly cache add   rawSpec: 'latest',
+60 silly cache add   spec: 'latest',
+60 silly cache add   type: 'tag' }
+61 silly addNamed gulp-jshint@latest
+62 verbose addNamed "latest" is being treated as a dist-tag for gulp-jshint
+63 info addNameTag [ 'gulp-jshint', 'latest' ]
+64 silly mapToRegistry name gulp-jshint
+65 silly mapToRegistry scope (from config) @mmorrissey
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+68 verbose addNameTag registry:https://registry.npmjs.org/gulp-jshint not in flight; fetching
+69 silly cache add parsed spec { raw: 'jshint-stylish@latest',
+69 silly cache add   scope: null,
+69 silly cache add   name: 'jshint-stylish',
+69 silly cache add   rawSpec: 'latest',
+69 silly cache add   spec: 'latest',
+69 silly cache add   type: 'tag' }
+70 silly addNamed jshint-stylish@latest
+71 verbose addNamed "latest" is being treated as a dist-tag for jshint-stylish
+72 info addNameTag [ 'jshint-stylish', 'latest' ]
+73 silly mapToRegistry name jshint-stylish
+74 silly mapToRegistry scope (from config) @mmorrissey
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+77 verbose addNameTag registry:https://registry.npmjs.org/jshint-stylish not in flight; fetching
+78 silly cache add parsed spec { raw: 'gulp-jscs@latest',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'gulp-jscs',
+78 silly cache add   rawSpec: 'latest',
+78 silly cache add   spec: 'latest',
+78 silly cache add   type: 'tag' }
+79 silly addNamed gulp-jscs@latest
+80 verbose addNamed "latest" is being treated as a dist-tag for gulp-jscs
+81 info addNameTag [ 'gulp-jscs', 'latest' ]
+82 silly mapToRegistry name gulp-jscs
+83 silly mapToRegistry scope (from config) @mmorrissey
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs
+86 verbose addNameTag registry:https://registry.npmjs.org/gulp-jscs not in flight; fetching
+87 silly cache add parsed spec { raw: 'gulp-jscs-stylish@latest',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'gulp-jscs-stylish',
+87 silly cache add   rawSpec: 'latest',
+87 silly cache add   spec: 'latest',
+87 silly cache add   type: 'tag' }
+88 silly addNamed gulp-jscs-stylish@latest
+89 verbose addNamed "latest" is being treated as a dist-tag for gulp-jscs-stylish
+90 info addNameTag [ 'gulp-jscs-stylish', 'latest' ]
+91 silly mapToRegistry name gulp-jscs-stylish
+92 silly mapToRegistry scope (from config) @mmorrissey
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs-stylish
+95 verbose addNameTag registry:https://registry.npmjs.org/gulp-jscs-stylish not in flight; fetching
+96 silly cache add parsed spec { raw: 'gulp-csslint@latest',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'gulp-csslint',
+96 silly cache add   rawSpec: 'latest',
+96 silly cache add   spec: 'latest',
+96 silly cache add   type: 'tag' }
+97 silly addNamed gulp-csslint@latest
+98 verbose addNamed "latest" is being treated as a dist-tag for gulp-csslint
+99 info addNameTag [ 'gulp-csslint', 'latest' ]
+100 silly mapToRegistry name gulp-csslint
+101 silly mapToRegistry scope (from config) @mmorrissey
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/gulp-csslint
+104 verbose addNameTag registry:https://registry.npmjs.org/gulp-csslint not in flight; fetching
+105 verbose request uri https://registry.npmjs.org/gulp-watch
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 21:29:47
+108 verbose request using bearer token for auth
+109 http request GET https://registry.npmjs.org/gulp-watch
+110 verbose request uri https://registry.npmjs.org/gulp-jscs
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 21:29:47
+113 verbose request using bearer token for auth
+114 http request GET https://registry.npmjs.org/gulp-jscs
+115 verbose request uri https://registry.npmjs.org/gulp-jscs-stylish
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 21:29:47
+118 verbose request using bearer token for auth
+119 http request GET https://registry.npmjs.org/gulp-jscs-stylish
+120 verbose request uri https://registry.npmjs.org/gulp-csslint
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 21:29:47
+123 verbose request using bearer token for auth
+124 http request GET https://registry.npmjs.org/gulp-csslint
+125 verbose request uri https://registry.npmjs.org/gulp
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 21:29:47
+128 verbose request using bearer token for auth
+129 verbose etag "79W5VTAGQYLCKTH3EC4YHCZAF"
+130 http request GET https://registry.npmjs.org/gulp
+131 verbose request uri https://registry.npmjs.org/jshint-stylish
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 21:29:47
+134 verbose request using bearer token for auth
+135 verbose etag "7CG270BLDHKJV77OA2K8ELH6I"
+136 http request GET https://registry.npmjs.org/jshint-stylish
+137 verbose request uri https://registry.npmjs.org/gulp-jshint
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 21:29:47
+140 verbose request using bearer token for auth
+141 verbose etag "5TPRJPTGPE5BNM8M7N5UZFUUE"
+142 http request GET https://registry.npmjs.org/gulp-jshint
+143 http 200 https://registry.npmjs.org/gulp-jscs-stylish
+144 silly get cb [ 200,
+144 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+144 silly get     etag: '"B57YNPOLKOK81HFJPGG8V16GB"',
+144 silly get     'content-type': 'application/json',
+144 silly get     'cache-control': 'max-age=60',
+144 silly get     'content-length': '8783',
+144 silly get     'accept-ranges': 'bytes',
+144 silly get     date: 'Thu, 06 Aug 2015 01:29:47 GMT',
+144 silly get     via: '1.1 varnish',
+144 silly get     connection: 'keep-alive',
+144 silly get     'x-served-by': 'cache-atl6226-ATL',
+144 silly get     'x-cache': 'MISS',
+144 silly get     'x-cache-hits': '0',
+144 silly get     'x-timer': 'S1438824587.583649,VS0,VE33',
+144 silly get     vary: 'Accept' } ]
+145 verbose get saving gulp-jscs-stylish to /Users/Morrissey/.npm/registry.npmjs.org/gulp-jscs-stylish/.cache.json
+146 silly addNameTag next cb for gulp-jscs-stylish with tag latest
+147 silly addNamed gulp-jscs-stylish@1.1.1
+148 verbose addNamed "1.1.1" is a plain semver version for gulp-jscs-stylish
+149 silly mapToRegistry name gulp-jscs-stylish
+150 silly mapToRegistry scope (from config) @mmorrissey
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs-stylish
+153 verbose addRemoteTarball https://registry.npmjs.org/gulp-jscs-stylish/-/gulp-jscs-stylish-1.1.1.tgz not in flight; adding
+154 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-jscs-stylish/-/gulp-jscs-stylish-1.1.1.tgz',
+154 verbose addRemoteTarball   '552f8f4cfa333ad09697568b4afebc81a8362c05' ]
+155 info retry fetch attempt 1 at 21:29:47
+156 info attempt registry request try #1 at 21:29:47
+157 http fetch GET https://registry.npmjs.org/gulp-jscs-stylish/-/gulp-jscs-stylish-1.1.1.tgz
+158 verbose request using bearer token for auth
+159 http 200 https://registry.npmjs.org/gulp-csslint
+160 silly get cb [ 200,
+160 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+160 silly get     etag: '"EF9JI9K88XILVH0O4ZWGUEAOG"',
+160 silly get     'content-type': 'application/json',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     'content-length': '9059',
+160 silly get     'accept-ranges': 'bytes',
+160 silly get     date: 'Thu, 06 Aug 2015 01:29:47 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-atl6227-ATL',
+160 silly get     'x-cache': 'MISS',
+160 silly get     'x-cache-hits': '0',
+160 silly get     'x-timer': 'S1438824587.608617,VS0,VE36',
+160 silly get     vary: 'Accept' } ]
+161 verbose get saving gulp-csslint to /Users/Morrissey/.npm/registry.npmjs.org/gulp-csslint/.cache.json
+162 silly addNameTag next cb for gulp-csslint with tag latest
+163 silly addNamed gulp-csslint@0.1.5
+164 verbose addNamed "0.1.5" is a plain semver version for gulp-csslint
+165 silly mapToRegistry name gulp-csslint
+166 silly mapToRegistry scope (from config) @mmorrissey
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry uri https://registry.npmjs.org/gulp-csslint
+169 verbose addRemoteTarball https://registry.npmjs.org/gulp-csslint/-/gulp-csslint-0.1.5.tgz not in flight; adding
+170 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-csslint/-/gulp-csslint-0.1.5.tgz',
+170 verbose addRemoteTarball   '330bfb30425db95bb6171fe40762ce5b23dfb608' ]
+171 info retry fetch attempt 1 at 21:29:47
+172 info attempt registry request try #1 at 21:29:47
+173 http fetch GET https://registry.npmjs.org/gulp-csslint/-/gulp-csslint-0.1.5.tgz
+174 verbose request using bearer token for auth
+175 http 200 https://registry.npmjs.org/gulp-jscs
+176 silly get cb [ 200,
+176 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+176 silly get     etag: '"1CDPUSY3F3GHO4OZDA22EB175"',
+176 silly get     'content-type': 'application/json',
+176 silly get     'cache-control': 'max-age=60',
+176 silly get     'content-length': '39429',
+176 silly get     'accept-ranges': 'bytes',
+176 silly get     date: 'Thu, 06 Aug 2015 01:29:47 GMT',
+176 silly get     via: '1.1 varnish',
+176 silly get     connection: 'keep-alive',
+176 silly get     'x-served-by': 'cache-atl6230-ATL',
+176 silly get     'x-cache': 'MISS',
+176 silly get     'x-cache-hits': '0',
+176 silly get     'x-timer': 'S1438824587.591615,VS0,VE173',
+176 silly get     vary: 'Accept' } ]
+177 verbose get saving gulp-jscs to /Users/Morrissey/.npm/registry.npmjs.org/gulp-jscs/.cache.json
+178 silly addNameTag next cb for gulp-jscs with tag latest
+179 silly addNamed gulp-jscs@2.0.0
+180 verbose addNamed "2.0.0" is a plain semver version for gulp-jscs
+181 silly mapToRegistry name gulp-jscs
+182 silly mapToRegistry scope (from config) @mmorrissey
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs
+185 verbose addRemoteTarball https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-2.0.0.tgz not in flight; adding
+186 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-2.0.0.tgz',
+186 verbose addRemoteTarball   'ccdcc845e87db307b234d6e5b0c1a265940019f2' ]
+187 info retry fetch attempt 1 at 21:29:48
+188 info attempt registry request try #1 at 21:29:48
+189 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-2.0.0.tgz
+190 verbose request using bearer token for auth
+191 http 200 https://registry.npmjs.org/gulp
+192 silly get cb [ 200,
+192 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+192 silly get     etag: '"DC22RRDUIXBU3V2LXMPUG1IGJ"',
+192 silly get     'content-type': 'application/json',
+192 silly get     'cache-control': 'max-age=60',
+192 silly get     'content-length': '105121',
+192 silly get     'accept-ranges': 'bytes',
+192 silly get     date: 'Thu, 06 Aug 2015 01:29:47 GMT',
+192 silly get     via: '1.1 varnish',
+192 silly get     connection: 'keep-alive',
+192 silly get     'x-served-by': 'cache-atl6226-ATL',
+192 silly get     'x-cache': 'MISS',
+192 silly get     'x-cache-hits': '0',
+192 silly get     'x-timer': 'S1438824587.711286,VS0,VE86',
+192 silly get     vary: 'Accept' } ]
+193 verbose get saving gulp to /Users/Morrissey/.npm/registry.npmjs.org/gulp/.cache.json
+194 silly addNameTag next cb for gulp with tag latest
+195 silly addNamed gulp@3.9.0
+196 verbose addNamed "3.9.0" is a plain semver version for gulp
+197 silly cache afterAdd gulp@3.9.0
+198 verbose afterAdd /Users/Morrissey/.npm/gulp/3.9.0/package/package.json not in flight; writing
+199 verbose afterAdd /Users/Morrissey/.npm/gulp/3.9.0/package/package.json written
+200 http 200 https://registry.npmjs.org/gulp-watch
+201 silly get cb [ 200,
+201 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+201 silly get     etag: '"AOQBQZ9PJJ3NHVOG36LM2RS7C"',
+201 silly get     'content-type': 'application/json',
+201 silly get     'cache-control': 'max-age=60',
+201 silly get     'content-length': '114379',
+201 silly get     'accept-ranges': 'bytes',
+201 silly get     date: 'Thu, 06 Aug 2015 01:29:47 GMT',
+201 silly get     via: '1.1 varnish',
+201 silly get     connection: 'keep-alive',
+201 silly get     'x-served-by': 'cache-atl6230-ATL',
+201 silly get     'x-cache': 'MISS',
+201 silly get     'x-cache-hits': '0',
+201 silly get     'x-timer': 'S1438824587.588771,VS0,VE191',
+201 silly get     vary: 'Accept' } ]
+202 verbose get saving gulp-watch to /Users/Morrissey/.npm/registry.npmjs.org/gulp-watch/.cache.json
+203 silly addNameTag next cb for gulp-watch with tag latest
+204 silly addNamed gulp-watch@4.3.4
+205 verbose addNamed "4.3.4" is a plain semver version for gulp-watch
+206 silly mapToRegistry name gulp-watch
+207 silly mapToRegistry scope (from config) @mmorrissey
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/gulp-watch
+210 verbose addRemoteTarball https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.4.tgz not in flight; adding
+211 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.4.tgz',
+211 verbose addRemoteTarball   '39cd03834ee7be44e875440c89c6de810636e9b2' ]
+212 info retry fetch attempt 1 at 21:29:48
+213 info attempt registry request try #1 at 21:29:48
+214 http fetch GET https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.4.tgz
+215 verbose request using bearer token for auth
+216 http 200 https://registry.npmjs.org/gulp-plumber
+217 silly get cb [ 200,
+217 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+217 silly get     etag: '"5GEU13OKXN88VT95M3YDW5SEC"',
+217 silly get     'content-type': 'application/json',
+217 silly get     'cache-control': 'max-age=60',
+217 silly get     'content-length': '39801',
+217 silly get     'accept-ranges': 'bytes',
+217 silly get     date: 'Thu, 06 Aug 2015 01:29:48 GMT',
+217 silly get     via: '1.1 varnish',
+217 silly get     connection: 'keep-alive',
+217 silly get     'x-served-by': 'cache-atl6235-ATL',
+217 silly get     'x-cache': 'MISS',
+217 silly get     'x-cache-hits': '0',
+217 silly get     'x-timer': 'S1438824587.595056,VS0,VE455',
+217 silly get     vary: 'Accept' } ]
+218 verbose get saving gulp-plumber to /Users/Morrissey/.npm/registry.npmjs.org/gulp-plumber/.cache.json
+219 silly addNameTag next cb for gulp-plumber with tag latest
+220 silly addNamed gulp-plumber@1.0.1
+221 verbose addNamed "1.0.1" is a plain semver version for gulp-plumber
+222 silly mapToRegistry name gulp-plumber
+223 silly mapToRegistry scope (from config) @mmorrissey
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+226 verbose addRemoteTarball https://registry.npmjs.org/gulp-plumber/-/gulp-plumber-1.0.1.tgz not in flight; adding
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-plumber/-/gulp-plumber-1.0.1.tgz',
+227 verbose addRemoteTarball   '56d8e74a0a05a8b75d2ecc11800d0191df542af2' ]
+228 info retry fetch attempt 1 at 21:29:48
+229 info attempt registry request try #1 at 21:29:48
+230 http fetch GET https://registry.npmjs.org/gulp-plumber/-/gulp-plumber-1.0.1.tgz
+231 verbose request using bearer token for auth
+232 http 200 https://registry.npmjs.org/jshint-stylish
+233 silly get cb [ 200,
+233 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+233 silly get     etag: '"CAD091FNOPNKXX4F8ZKWXS4Q1"',
+233 silly get     'content-type': 'application/json',
+233 silly get     'cache-control': 'max-age=60',
+233 silly get     'content-length': '18749',
+233 silly get     'accept-ranges': 'bytes',
+233 silly get     date: 'Thu, 06 Aug 2015 01:29:48 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-atl6227-ATL',
+233 silly get     'x-cache': 'MISS',
+233 silly get     'x-cache-hits': '0',
+233 silly get     'x-timer': 'S1438824587.726270,VS0,VE428',
+233 silly get     vary: 'Accept' } ]
+234 verbose get saving jshint-stylish to /Users/Morrissey/.npm/registry.npmjs.org/jshint-stylish/.cache.json
+235 http fetch 200 https://registry.npmjs.org/gulp-jscs-stylish/-/gulp-jscs-stylish-1.1.1.tgz
+236 silly fetchAndShaCheck shasum 552f8f4cfa333ad09697568b4afebc81a8362c05
+237 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/gulp-jscs-stylish/-/gulp-jscs-stylish-1.1.1.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for gulp-jscs-stylish@1.1.1
+239 silly addNameTag next cb for jshint-stylish with tag latest
+240 silly addNamed jshint-stylish@2.0.1
+241 verbose addNamed "2.0.1" is a plain semver version for jshint-stylish
+242 silly mapToRegistry name jshint-stylish
+243 silly mapToRegistry scope (from config) @mmorrissey
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+246 verbose addRemoteTarball https://registry.npmjs.org/jshint-stylish/-/jshint-stylish-2.0.1.tgz not in flight; adding
+247 verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint-stylish/-/jshint-stylish-2.0.1.tgz',
+247 verbose addRemoteTarball   '845bf38386e55551ff9f840cc7725f7a88b5b2d4' ]
+248 info retry fetch attempt 1 at 21:29:48
+249 info attempt registry request try #1 at 21:29:48
+250 http fetch GET https://registry.npmjs.org/jshint-stylish/-/jshint-stylish-2.0.1.tgz
+251 verbose request using bearer token for auth
+252 silly cache afterAdd gulp-jscs-stylish@1.1.1
+253 verbose afterAdd /Users/Morrissey/.npm/gulp-jscs-stylish/1.1.1/package/package.json not in flight; writing
+254 verbose afterAdd /Users/Morrissey/.npm/gulp-jscs-stylish/1.1.1/package/package.json written
+255 http fetch 200 https://registry.npmjs.org/gulp-csslint/-/gulp-csslint-0.1.5.tgz
+256 silly fetchAndShaCheck shasum 330bfb30425db95bb6171fe40762ce5b23dfb608
+257 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/gulp-csslint/-/gulp-csslint-0.1.5.tgz not in flight; adding
+258 verbose addTmpTarball already have metadata; skipping unpack for gulp-csslint@0.1.5
+259 http 200 https://registry.npmjs.org/gulp-jshint
+260 silly get cb [ 200,
+260 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+260 silly get     etag: '"4SCHQUYLRJJBHEV4RYXT5CF73"',
+260 silly get     'content-type': 'application/json',
+260 silly get     'cache-control': 'max-age=60',
+260 silly get     'content-length': '63249',
+260 silly get     'accept-ranges': 'bytes',
+260 silly get     date: 'Thu, 06 Aug 2015 01:29:48 GMT',
+260 silly get     via: '1.1 varnish',
+260 silly get     connection: 'keep-alive',
+260 silly get     'x-served-by': 'cache-atl6230-ATL',
+260 silly get     'x-cache': 'MISS',
+260 silly get     'x-cache-hits': '0',
+260 silly get     'x-timer': 'S1438824588.061972,VS0,VE178',
+260 silly get     vary: 'Accept' } ]
+261 verbose get saving gulp-jshint to /Users/Morrissey/.npm/registry.npmjs.org/gulp-jshint/.cache.json
+262 silly addNameTag next cb for gulp-jshint with tag latest
+263 silly addNamed gulp-jshint@1.11.2
+264 verbose addNamed "1.11.2" is a plain semver version for gulp-jshint
+265 silly mapToRegistry name gulp-jshint
+266 silly mapToRegistry scope (from config) @mmorrissey
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+269 verbose addRemoteTarball https://registry.npmjs.org/gulp-jshint/-/gulp-jshint-1.11.2.tgz not in flight; adding
+270 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-jshint/-/gulp-jshint-1.11.2.tgz',
+270 verbose addRemoteTarball   'd430d00de42ce6e7ba0df30418c9d1d3153822b5' ]
+271 silly cache afterAdd gulp-csslint@0.1.5
+272 verbose afterAdd /Users/Morrissey/.npm/gulp-csslint/0.1.5/package/package.json not in flight; writing
+273 info retry fetch attempt 1 at 21:29:48
+274 info attempt registry request try #1 at 21:29:48
+275 http fetch GET https://registry.npmjs.org/gulp-jshint/-/gulp-jshint-1.11.2.tgz
+276 verbose request using bearer token for auth
+277 verbose afterAdd /Users/Morrissey/.npm/gulp-csslint/0.1.5/package/package.json written
+278 http fetch 200 https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-2.0.0.tgz
+279 silly fetchAndShaCheck shasum ccdcc845e87db307b234d6e5b0c1a265940019f2
+280 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/gulp-jscs/-/gulp-jscs-2.0.0.tgz not in flight; adding
+281 verbose addTmpTarball already have metadata; skipping unpack for gulp-jscs@2.0.0
+282 silly cache afterAdd gulp-jscs@2.0.0
+283 verbose afterAdd /Users/Morrissey/.npm/gulp-jscs/2.0.0/package/package.json not in flight; writing
+284 verbose afterAdd /Users/Morrissey/.npm/gulp-jscs/2.0.0/package/package.json written
+285 http fetch 200 https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.4.tgz
+286 silly fetchAndShaCheck shasum 39cd03834ee7be44e875440c89c6de810636e9b2
+287 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.4.tgz not in flight; adding
+288 verbose addTmpTarball already have metadata; skipping unpack for gulp-watch@4.3.4
+289 silly cache afterAdd gulp-watch@4.3.4
+290 verbose afterAdd /Users/Morrissey/.npm/gulp-watch/4.3.4/package/package.json not in flight; writing
+291 verbose afterAdd /Users/Morrissey/.npm/gulp-watch/4.3.4/package/package.json written
+292 http fetch 200 https://registry.npmjs.org/gulp-plumber/-/gulp-plumber-1.0.1.tgz
+293 silly fetchAndShaCheck shasum 56d8e74a0a05a8b75d2ecc11800d0191df542af2
+294 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/gulp-plumber/-/gulp-plumber-1.0.1.tgz not in flight; adding
+295 verbose addTmpTarball already have metadata; skipping unpack for gulp-plumber@1.0.1
+296 silly cache afterAdd gulp-plumber@1.0.1
+297 verbose afterAdd /Users/Morrissey/.npm/gulp-plumber/1.0.1/package/package.json not in flight; writing
+298 verbose afterAdd /Users/Morrissey/.npm/gulp-plumber/1.0.1/package/package.json written
+299 http fetch 200 https://registry.npmjs.org/jshint-stylish/-/jshint-stylish-2.0.1.tgz
+300 silly fetchAndShaCheck shasum 845bf38386e55551ff9f840cc7725f7a88b5b2d4
+301 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/jshint-stylish/-/jshint-stylish-2.0.1.tgz not in flight; adding
+302 verbose addTmpTarball already have metadata; skipping unpack for jshint-stylish@2.0.1
+303 silly cache afterAdd jshint-stylish@2.0.1
+304 verbose afterAdd /Users/Morrissey/.npm/jshint-stylish/2.0.1/package/package.json not in flight; writing
+305 verbose afterAdd /Users/Morrissey/.npm/jshint-stylish/2.0.1/package/package.json written
+306 http fetch 200 https://registry.npmjs.org/gulp-jshint/-/gulp-jshint-1.11.2.tgz
+307 silly fetchAndShaCheck shasum d430d00de42ce6e7ba0df30418c9d1d3153822b5
+308 verbose addTmpTarball /var/folders/c4/4p782931493cr11cy0164zdh0000gn/T/npm-6320-1ef62b86/registry.npmjs.org/gulp-jshint/-/gulp-jshint-1.11.2.tgz not in flight; adding
+309 verbose addTmpTarball already have metadata; skipping unpack for gulp-jshint@1.11.2
+310 verbose stack Error: EACCES, mkdir '/Users/Morrissey/.npm/gulp-jshint/1.11.2'
+311 verbose cwd /Users/Morrissey/code/art-chat/.gulp
+312 error Darwin 14.3.0
+313 error argv "node" "/usr/local/opt/nvm/v0.10.35/bin/npm" "install" "--save-dev"
+314 error node v0.10.35
+315 error npm  v2.13.2
+316 error path /Users/Morrissey/.npm/gulp-jshint/1.11.2
+317 error code EACCES
+318 error errno 3
+319 error Error: EACCES, mkdir '/Users/Morrissey/.npm/gulp-jshint/1.11.2'
+319 error  { [Error: EACCES, mkdir '/Users/Morrissey/.npm/gulp-jshint/1.11.2']
+319 error   errno: 3,
+319 error   code: 'EACCES',
+319 error   path: '/Users/Morrissey/.npm/gulp-jshint/1.11.2' }
+320 error Please try running this command again as root/Administrator.
+321 verbose exit [ 3, true ]
