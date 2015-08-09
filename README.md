@@ -1,2 +1,1 @@
-digital noise experiment
-
+playing around w/ Meteor + Flux + React

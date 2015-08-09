@@ -1,0 +1,19 @@
+// Top Nav Bar
+$background-color: #de6060;
+$text-color: black;
+
+.sideNavBar {
+  background: $background-color;
+  color: $text-color;
+  width: 80px;
+  height: 100%;
+}
+.sideNavBar-innerContainer {
+  padding: 20px;
+}
+.topNavBar-logo {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background: white;
+}

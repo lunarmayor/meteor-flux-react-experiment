@@ -1,0 +1,45 @@
+/* CSS declarations go here */
+body, html, .app {
+  padding: 0;
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  padding: 20px 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 80px;
+  bottom: 0;
+  overflow: auto
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+input {
+  background-color: rgba(239, 166, 169, 0.44);
+  border: 1px solid #E77A7E;
+  padding: 15px 20px;
+  outline: none;
+  font-weight: 200;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 156, 156, 0.93)
+}
+
+h4 {
+  color: #855354;
+  font-weight: 200;
+}
+
+.home {
+  max-width: 500px;
+  margin: auto;
+}
+

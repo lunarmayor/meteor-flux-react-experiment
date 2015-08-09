@@ -1,0 +1,9 @@
+.note {
+  background: rgb(239, 166, 169);
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-left: rgb(231, 122, 126) 5px solid;
+  border-right: rgb(231, 122, 126) 5px solid;
+  font-family: helvetica neue;
+  font-weight: 200;
+}
