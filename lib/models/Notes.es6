@@ -11,10 +11,6 @@ Note = {
     Notes.insert(attributes)
   },
 
-  update() {
-    //destroy
-  },
-
   destroy(id) {
     Notes.remove({ _id: id })
   },
